@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: dosis;
+}
+
+.title {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.video-section {
+    margin-top: 20px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+video {
+    width: 70%;
+    height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.image-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-item {
+    margin-bottom: 20px;
+}
+
+.image-item img {
+    width: 50%;
+    height: auto;
+}
+
+h1, p {
+   font-family: dosis;
+}
